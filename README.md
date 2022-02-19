@@ -46,6 +46,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+  First I had to make sure that all the needed images and texts were already written on HTML. 
+  I then started from top to bottom and organically added styling to which HTML element comes first. 
+  I made sure the media query was on Mobile so the sizes would be exact. 
+  From there I would check every now and then if the design I was creating was looking close to the given design. 
+  Once the design for mobile was comeplete, I started editing the changes for the desktop view to make it look responsive for laptop users as well. When I undergo issues or when I can't seem to find a solution to a code, I would google the problem and reasearch, code, and test. Some of the links that helped me are found below. 
+  
 ### Built with
 
 - Semantic HTML5 markup
@@ -53,8 +59,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - Mobile-first workflow
 - FontAwesome Icons
-
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
