@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/juanitatime/Hubble-Landing-Page
+- Live Site URL: https://sharp-nightingale-9b206a.netlify.app/#
 
 ## My process
 
