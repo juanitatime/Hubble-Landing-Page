@@ -1,18 +1,109 @@
-/* Mobile */
-@media only screen and (min-width: 375px) {
+body {
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(./bg-mobile.svg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 768px) {
     body {
-        background-color:  hsl(257, 40%, 49%);
-        background-image: url(./bg-mobile.svg);
+        background-image: url(./bg-desktop.svg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;;
+    }
+    .logo {
+        width: 10%;
+        margin: 30px 50px 20px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .mockup {
+        width: 700px;
+        height: auto;
+        margin: 0px 0px 20px 30px;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .content-container {
+     width: 500px;
+     color: #fff;
+     font-family: 'Poppins', sans-serif;
+     margin: 40px 230px 0px 0px;
+    }
+    .content-par {
+        color: #fff;
+        width: 460px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    .button {
+        text-align: center;
+        margin: -270px 20px 20px 270px;
+        
+    }
+    button {
+        background-color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: hsl(257, 40%, 49%);
+        width: 170px;
+        height: 45px;
+        border-radius: 20px;
+        border: none; 
+    }
+    button:hover {
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+    }
+    #icon-container {
+        text-align: right;
+        margin: 130px 50px 50px 30px;
+    }
+    .icons-box:hover {
+        color: hsl(300, 69%, 71%);
+    }
+    .icons-box:hover {
+        border-color: hsl(300, 69%, 71%);
+    }
+   
+}
+/* Mobile */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    body {
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(./bg-mobile.svg);
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
     }
     .logo {
         width: 60%;
         
     }
+    .mockup {
+        width: 90%;
+    }
     .image-container {
         display: flex;
         flex-direction: column;
-        margin: 50px 30px 20px 10px;
+        margin: 50px 30px 20px 40px;
     }
+    
     .text-container {
         display: flex;
         flex-direction: column;
@@ -40,19 +131,26 @@
         line-height: 25px;
     }
     .button {
-        margin: 0px 80px 20px 80px;
+        text-align: center;
     }
     button {
         background-color: #fff;
         font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
         color: hsl(257, 40%, 49%);
         width: 200px;
         height: 40px;
         border-radius: 20px;
         border: none;   
     }
+    button:hover {
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+    }
     #icon-container {
-        margin:  50px 10px 20px 100px;
+        text-align: center;
+    }
+   
     }
     .icons-box {
         border: 1px solid #fff;
@@ -62,9 +160,20 @@
         text-align: center;
         justify-content: center;
     }
+    .icons-box:hover {
+        color: hsl(300, 69%, 71%);
+    }
+    .icons-box:hover {
+        border-color: hsl(300, 69%, 71%);
+    }
     i { 
         margin-top: 80px;
     }
+    
+    i:hover {
+        color: hsl(300, 69%, 71%);
+    }
+   
     .attribution {
         color: #fff;
         font-family:'Poppins', sans-serif;
@@ -73,4 +182,16 @@
         text-decoration: none;
         font-family:'Poppins', sans-serif;
     }
+    .attribution a:hover {
+        color: hsl(300, 69%, 71%);
+        
+    }
 }  
+
+
+
+/* For Desktop */
+    
+
+/* https://www.geeksforgeeks.org/how-to-write-ahover-in-inline-css/ - I used this to learn how to do inline styling for the icons
+https://convertingcolors.com/hsl-color-300_69_71.html?search=hsl(300,%2069%,%2071%) - this site to convert colors into hex */
