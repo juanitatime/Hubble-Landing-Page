@@ -51,10 +51,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to create a mobile responsive design as well as a web responsive design using media queries. 
-I learned that in order for me to find out where the issues in code were, I had to play around with the browser's developer tools
-I also learned how to work using the delevoper tools inorder for the design to be responsive.
-I learned to always create a mobile responsive site before creating a web responsive one. 
+- I learned how to create a mobile responsive design as well as a web responsive design using media queries. 
+- I learned that in order for me to find out where the issues in code were, I had to play around with the browser's developer tools
+- I also learned how to work using the delevoper tools inorder for the design to be responsive.
+- I learned to always create a mobile responsive site before creating a web responsive one. 
+- That patience in resolving issues in your code goes a long way.
 
 ### Continued development
 
@@ -78,4 +79,4 @@ https://convertingcolors.com/hsl-color-300_69_71.html?search=hsl(300,%2069%,%207
 
 ## Acknowledgments
 
-This is my first time creating a FEM Challenge and it truly was challenging. I look forward to completing the others soon. For this project, I would like to thank @wellspr and @Martingf56 for enlightening me on how they were able to solve the challenge. 
+This is my first time creating a FEM Challenge and it truly was challenging. I look forward to completing the others soon. For this project, I would like to thank @wellspr and @Martingf56 for enlightening me on how they were able to solve the challenge as well as the channels I find inspiration in such as Front End Mentor Slack Group, FilTech Society Discord Group, CDG Slack Group, and ZTM Discord Group. 
