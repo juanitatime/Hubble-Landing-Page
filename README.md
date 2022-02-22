@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/juanitatime/Hubble-Landing-Page
-- Live Site URL: https://admiring-clarke-e0ed6b.netlify.app/
+- Live Site URL: https://musing-pasteur-8d5749.netlify.app
 
 ## My process
 
