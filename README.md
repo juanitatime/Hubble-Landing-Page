@@ -15,7 +15,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+LIVE SITE STILL IN THE WORKS OF IMPROVISATION 
 
 ## Overview
 
@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/juanitatime/Hubble-Landing-Page
-- Live Site URL: https://musing-pasteur-8d5749.netlify.app
+- Live Site URL: https://brave-colden-609931.netlify.app 
 
 ## My process
 
