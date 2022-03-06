@@ -80,3 +80,5 @@ https://convertingcolors.com/hsl-color-300_69_71.html?search=hsl(300,%2069%,%207
 ## Acknowledgments
 
 This is my first time creating a FEM Challenge and it truly was challenging. I look forward to completing the others soon. For this project, I would like to thank @wellspr and @Martingf56 for enlightening me on how they were able to solve the challenge as well as the channels I find inspiration in such as Front End Mentor Slack Group, FilTech Society Discord Group, CDG Slack Group, and ZTM Discord Group. 
+
+MANY MANY THANKS TO @agusc01 FROM FRONT END MENTOR FOR HELPING ME CREATE A BETTER CODE FOR THIS PROJECT. HIS INPUT, SUGGESTIONS, TIME, AND EFFORT IN LOOKING INTO MY CODE HAS TAUGHT ME NEW WAYS TO SOLVE THIS. 

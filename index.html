@@ -5,95 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- displays site properly based on user's device -->
-
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7ad2b3508b.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
     <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(0, 0%, 100%);
-        }
-    </style>
 </head>
 
 <body>
-    
-        <header>
-            <img class="logo" src="./logo.svg" alt="Huddle Logo">
-        </header>
+
+    <header>
+        <img class="logo" src="./images/logo.svg" alt="Huddle Logo">
+    </header>
 
     <main class="main">
 
         <div class="image-container">
 
-            <img class="mockup" src="./illustration-mockups.svg" alt="Illustration Mock-up">
+            <img class="mockup" src="./images/illustration-mockups.svg" alt="Illustration Mock-up">
 
         </div>
 
         <div class="text-container">
-        
+
             <div class="content-container">
 
                 <h1>Build The Community <br>Your Fans Will Love</h1>
 
-            </div>  
+            </div>
 
-            <div        class="content-par">
+            <div class="content-par">
 
-                <p>Huddle re-imagines the way we build  communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+                    connections with your users as you engage in genuine discussion.
                 </p>
 
             </div>
             <div class="button">
 
                 <button>Register</button>
-        
+
             </div>
         </div>
-        
+
     </main>
-    
 
-    <div class="icons" id="icon-container">
 
-        <a class="icons-box" href="www.facebook.com" target="_blank">
-            <i class="icons fab fa-facebook-f fa-lg" 
-            onMouseOver="this.style.color='#E882E8'"
-            onmouseleave="this.style.color='white'"
-            style="color:white" ></i>
+    <div class="icon">
+        <a class="icon__link" href="www.facebook.com" target="_blank">
+            <i class="icon__italic fab fa-facebook-f fa-lg"></i>
         </a>
 
-        <a class="icons-box" href="www.twitter.com" target="_blank">
-            <i class="icons fab fa-twitter fa-lg" onMouseOver="this.style.color='#E882E8'"
-            onmouseleave="this.style.color='white'"
-            style="color:white"></i>
+        <a class="icon__link" href="www.twitter.com" target="_blank">
+            <i class="icon__italic fab fa-twitter fa-lg"></i>
         </a>
-
-        <a class="icons-box" href="www.instagram.com" target="_blank">
-            <i class="icons fab fa-instagram fa-lg" onMouseOver="this.style.color='#E882E8'"
-            onmouseleave="this.style.color='white'"
-            style="color:white"></i>
+        <a class="icon__link" href="www.instagram.com" target="_blank">
+            <i class="icon__italic fab fa-instagram fa-lg"></i>
         </a>
-
     </div>
-
     <footer>
 
         <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Meryl Almeida</a>.
+            <!-- CHANGE add classes to the anchor to don't use selectores groups on your CSS file -->
+            Challenge by <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank">Frontend Mentor</a>.
+            Coded by <a class="attribution__link" href="#">Meryl Almeida</a>.
         </p>
 
     </footer>
-    
+
+    <!-- CHANGE: ALWAYS and I say ALWAYS the <script src="..."> goes in the latest lines of <body> 
+        because first have to download all HTML file and in the last time the script file -->
+    <script src="https://kit.fontawesome.com/7ad2b3508b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </body>
 
-</html
+</html>
