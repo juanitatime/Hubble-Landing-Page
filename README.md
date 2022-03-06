@@ -14,8 +14,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Shoutout](#shoutout)
 
 ## Overview
 
@@ -30,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/juanitatime/Hubble-Landing-Page
-- Live Site URL: https://musing-pasteur-8d5749.netlify.app
+- Live Site URL: https://festive-sammet-e909c6.netlify.app
 
 ## My process
 
@@ -60,7 +59,8 @@ Users should be able to:
 ### Continued development
 
 I would really need to continue practicing in creating a mobile-first responsive website. Since I have been used to creating websites for desktop, I have to make sure it could be appealing when opening in mobile devices. 
-
+- Need to learn to use BEM 
+- Practice naming classes to minimize styles in css and not repeat styles in different media queries
 
 ### Useful resources
 
@@ -80,5 +80,7 @@ https://convertingcolors.com/hsl-color-300_69_71.html?search=hsl(300,%2069%,%207
 ## Acknowledgments
 
 This is my first time creating a FEM Challenge and it truly was challenging. I look forward to completing the others soon. For this project, I would like to thank @wellspr and @Martingf56 for enlightening me on how they were able to solve the challenge as well as the channels I find inspiration in such as Front End Mentor Slack Group, FilTech Society Discord Group, CDG Slack Group, and ZTM Discord Group. 
+
+## Special Shoutout 
 
 MANY MANY THANKS TO @agusc01 FROM FRONT END MENTOR FOR HELPING ME CREATE A BETTER CODE FOR THIS PROJECT. HIS INPUT, SUGGESTIONS, TIME, AND EFFORT IN LOOKING INTO MY CODE HAS TAUGHT ME NEW WAYS TO SOLVE THIS. 
